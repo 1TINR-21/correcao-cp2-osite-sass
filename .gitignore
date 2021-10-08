@@ -2,3 +2,6 @@
 
 # Arquivos Compiladadores de CSS [SCSS]
 *.scss
+
+# Pasta de configuração WORKSDPACE do VSCODE
+.vscode
