@@ -1,8 +1,6 @@
 /*Cabeçalho*/
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     background-image: url("../img/fundo-pc.jpg");
     background-size: cover;
     background-repeat: no-repeat;

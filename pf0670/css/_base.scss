@@ -11,3 +11,9 @@ h2,
 h3 {
     font-family: "Asap", sans-serif;
 }
+
+@mixin base-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

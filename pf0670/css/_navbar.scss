@@ -14,11 +14,9 @@ nav > a {
 }
 
 nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     list-style: none;
-    padding: 0;
+
     width: 100%;
 }
 

@@ -1,15 +1,11 @@
 /*Serviços*/
 #servicos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     padding: 30px;
 }
 
 #servicos div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     text-align: center;
     margin-top: 30px;
 }

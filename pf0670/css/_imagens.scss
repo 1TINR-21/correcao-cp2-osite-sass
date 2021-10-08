@@ -1,8 +1,6 @@
 /*Imagens*/
 #imagens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     padding-top: 20px;
 }
 

@@ -1,9 +1,7 @@
 /*Contato*/
 
 #contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include base-sections;
     text-align: center;
     padding: 20px;
 }
