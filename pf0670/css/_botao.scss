@@ -1,0 +1,13 @@
+.botao {
+    color: $text-color;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: $primary-color;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
+#sobre .botao {
+    background-color: $text-color;
+    color: #1c1c1c;
+}

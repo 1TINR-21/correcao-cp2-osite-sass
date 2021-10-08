@@ -1,0 +1,224 @@
+@import "base";
+@import "variaveis";
+@import "botao";
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary-color;
+}
+
+nav > a {
+    text-decoration: none;
+    color: $text-color;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: "Asap", serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: $text-color;
+}
+
+/*Cabeçalho*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/fundo-pc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $text-color;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: $text-color;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: $primary-color;
+    color: $text-color;
+}
+#sobre h2 {
+    color: $text-color;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+
+/*Serviços*/
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#servicos div img {
+    width: 80%;
+    transform: scale(80%);
+    transition: transform 0.5s;
+}
+
+#servicos div img:hover {
+    transform: scale(120%);
+}
+
+/*Imagens*/
+#imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#imagens h2 {
+    margin-bottom: 20px;
+}
+
+#imagens img {
+    width: 100%;
+}
+
+/*Contato*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2 {
+    color: #000000;
+}
+
+/*Rodapé*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+/*@Media-Queries*/
+@media screen and (min-width: 768px) {
+    /*nav*/
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    /*Cabeçalho*/
+    header {
+        height: 60vh;
+        justify-content: center;
+    }
+
+    /*Sobre*/
+    #sobre {
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*Serviços*/
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /*Fotos*/
+    #fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #fotos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #fotos img {
+        width: 33.333333%;
+    }
+
+    /*Contato*/
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+}
