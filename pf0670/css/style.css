@@ -77,6 +77,11 @@ nav ul li a {
   color: #ffffff;
 }
 
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #191970;
+}
+
 /*Cabeçalho*/
 header {
   display: -webkit-box;
