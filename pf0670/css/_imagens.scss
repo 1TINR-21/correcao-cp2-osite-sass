@@ -1,0 +1,15 @@
+/*Imagens*/
+#imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#imagens h2 {
+    margin-bottom: 20px;
+}
+
+#imagens img {
+    width: 100%;
+}
