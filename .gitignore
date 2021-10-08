@@ -1,7 +1,10 @@
 ##VSCODE
 
-# Arquivos Compiladadores de CSS [SCSS]
+# Arquivos Compiladores de CSS [SCSS]
 *.scss
 
-# Pasta de configuração WORKSDPACE do VSCODE
+# Arquivos MAP SASS [MAP]
+*.map
+
+# Pasta de configuração WORKSDPACE do VSCODE[.VSCODE]
 .vscode
